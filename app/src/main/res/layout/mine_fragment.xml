@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ima_view"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="85dp"
+            android:layout_height="85dp" />
+        
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_marginTop="130dp"
+            android:textSize="20sp"
+            android:text="开启动画"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
